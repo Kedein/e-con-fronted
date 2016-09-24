@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1544,7 +1545,7 @@
 /* Basic */
 
 	html, body {
-		background: #060f62;
+		background: #1c1d26;
 	}
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1563,7 +1564,7 @@
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
-		line-height: 2.0em;
+		line-height: 1.75em;
 	}
 
 	a {
@@ -1591,11 +1592,11 @@
 	}
 
 	p {
-		margin: 0 0 1em 0;
+		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #FFFF;
+		color: #ffffff;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1697,8 +1698,6 @@
 	}
 
 /* Loader */
-
-
 
 	@-moz-keyframes spinner-show {
 		0% {
@@ -2030,7 +2029,7 @@
 			-webkit-transform-origin: 50% 50%;
 			-ms-transform-origin: 50% 50%;
 			transform-origin: 50% 50%;
-			color: rgba(0, 100, 200, 0.55);
+			color: rgba(255, 255, 255, 0.15);
 			content: '\f1ce';
 			cursor: default;
 			display: block;
@@ -2239,7 +2238,7 @@
 	}
 
 	select option {
-		background-color: #060f62;
+		background-color: #1c1d26;
 		color: #ffffff;
 	}
 
@@ -2444,7 +2443,7 @@
 		border-radius: 4px;
 		border: 0;
 		display: inline-block;
-		position: relative;
+		/*position: relative;*/
 		overflow: hidden;
 	}
 
@@ -2455,7 +2454,7 @@
 			left: 0;
 			top: 0;
 			background-image: url("images/overlay.png");
-			/*width: 100%;*/
+			width: 100%;
 			height: 100%;
 			z-index: 1;
 		}
@@ -2774,7 +2773,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #32CC90;
+			background-color: #e44c65;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3077,7 +3076,7 @@
 	}
 
 		.wrapper.style2 {
-			background: #00A5FF;
+			background: #abadb4;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3111,7 +3110,7 @@
 			.wrapper.style2 input[type="reset"].special,
 			.wrapper.style2 input[type="button"].special,
 			.wrapper.style2 .button.special {
-				background-color: #32CC90;
+				background-color: #ffffff;
 				color: #e44c65 !important;
 			}
 
@@ -3189,7 +3188,7 @@
 /* Dropotron */
 
 	.dropotron {
-		background: rgba(0, 100, 200, 0.55);
+		background: rgba(39, 40, 51, 0.965);
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
 		list-style: none;
@@ -3250,7 +3249,7 @@
 	}
 
 	#header {
-		background: rgba(0, 100, 200, 0.55);
+		background: rgba(39, 40, 51, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3347,10 +3346,10 @@
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(0, 100, 200, 0.55), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(0, 100, 200, 0.55), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(0, 100, 200, 0.55), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(0, 100, 200, 0.55), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3411,7 +3410,7 @@
 /* Footer */
 
 	#footer {
-		background: #060f62;
+		background: #1C1D26;
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3430,7 +3429,7 @@
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #060f62 !important;
+				color: #1C1D26 !important;
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
@@ -3468,7 +3467,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 	}
@@ -3549,7 +3548,7 @@
 				}
 
 				.spotlight .content {
-					background-color: #060f62;
+					background-color: #1c1d26;
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
