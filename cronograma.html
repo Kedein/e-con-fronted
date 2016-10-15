@@ -74,6 +74,9 @@
 									<th><ul class="actions">
 										<li><a href="#tres" class="button">Día 3</a></li>
 									</ul></th>
+									<th><ul class="actions">
+										<li><a href="#cuatro" class="button">¿Cómo llegar?</a></li>
+									</ul></th>
 								</tr>
 							</thead>
 						    </table>
@@ -366,6 +369,17 @@
 									<ul class="actions">
 										<li><a href="#main" class="button">Subir</a></li>
 									</ul>
+							</section>
+
+							<!-- cuatro -->
+							<section id="cuatro">
+								<div class="container">
+								<header>
+								<h2>¿Cómo llegar?</h2>
+							
+								</header>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.5975252589989!2d-77.05007980380273!3d-12.016642580546298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x428e90276ca96a02!2sCentro+de+Tecnologias+de+Informacion+y+Comunicaciones!5e0!3m2!1ses!2spe!4v1476521007206" width="1220" height="433" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>
 							</section>
 
 					</div>
